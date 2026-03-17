@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactAndAspApp.Server", "ReactAndAspApp.Server\ReactAndAspApp.Server.csproj", "{D0F158AA-CA7E-4485-BCFB-92BB2E3B6104}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactandaspapp.client", "reactandaspapp.client\reactandaspapp.client.esproj", "{5E3AC9A3-DDB7-4C39-AC52-658AA25075E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{96E941A2-24CA-4391-AAE8-6DB7371C16BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +25,15 @@ Global
 		{5E3AC9A3-DDB7-4C39-AC52-658AA25075E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3AC9A3-DDB7-4C39-AC52-658AA25075E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E3AC9A3-DDB7-4C39-AC52-658AA25075E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96E941A2-24CA-4391-AAE8-6DB7371C16BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E941A2-24CA-4391-AAE8-6DB7371C16BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E941A2-24CA-4391-AAE8-6DB7371C16BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E941A2-24CA-4391-AAE8-6DB7371C16BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE7AF0C6-EE3A-4117-97BF-9C054DC6E493}
 	EndGlobalSection
 EndGlobal
